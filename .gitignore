@@ -1,0 +1,3 @@
+crawls/
+*.local
+.dockerignore

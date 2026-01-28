@@ -1,0 +1,31 @@
+services:
+  
+  open-crawler-service:
+    build:
+      context: ./crawler-service
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env.local
+    volumes:
+      - ./crawls:/crawler/crawls
+
+  open-crawler-frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile.dev
+    ports:
+      - "16700:16700"
+    env_file:
+      - .env.local
+    volumes:
+      - ./frontend/src:/app/src
+      - ./frontend/public:/app/public
+      - ./frontend/index.html:/app/index.html
+      - ./frontend/vite.config.js:/app/vite.config.js
+    depends_on:
+      - open-crawler-service
+
+  
+

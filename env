@@ -1,0 +1,7 @@
+# Suppress source map warnings
+GENERATE_SOURCEMAP=false
+LOCAL=TRUE
+
+ES_URL=https://your-elasticsearch-deployment:443
+ES_API_KEY=QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQ==
+

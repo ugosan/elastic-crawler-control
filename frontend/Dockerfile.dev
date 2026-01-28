@@ -1,0 +1,12 @@
+FROM node:24-alpine
+
+WORKDIR /app
+
+COPY . .
+
+RUN yarn install
+
+EXPOSE 16700
+
+# For development, we'll use vite proxy, not nginx
+CMD ["yarn", "dev", "--host", "0.0.0.0", "--port", "16700"]
