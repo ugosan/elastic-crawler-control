@@ -7,7 +7,7 @@ services:
     ports:
       - "8000:8000"
     env_file:
-      - .env.local
+      - env.local
     volumes:
       - ./crawls:/crawler/crawls
 
@@ -18,7 +18,7 @@ services:
     ports:
       - "16700:16700"
     env_file:
-      - .env.local
+      - env.local
     volumes:
       - ./frontend/src:/app/src
       - ./frontend/public:/app/public
