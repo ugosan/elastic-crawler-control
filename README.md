@@ -1,8 +1,18 @@
+<div align="center">
 
+<img src="./assets/crawly-logo.webp" alt="Crawly Logo" width="400">
 
-# Elastic Open Web Crawler Control
+**Web crawler service and UI built on top of Elastic Open Web Crawler.**
 
-Web crawler service and UI with Elastic Open Crawler integration.
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](https://opensource.org/licenses/MIT)
+[![Python](https://img.shields.io/badge/Python-3.11+-blue?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.100+-009688?style=flat-square&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
+[![React](https://img.shields.io/badge/React-18-61DAFB?style=flat-square&logo=react&logoColor=black)](https://react.dev/)
+[![Docker](https://img.shields.io/badge/Docker-Compose-2496ED?style=flat-square&logo=docker&logoColor=white)](https://www.docker.com/)
+
+</div>
+
+---
 
 ## Architecture
 
