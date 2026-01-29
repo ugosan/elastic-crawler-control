@@ -220,6 +220,6 @@ app/
 ```
 
 
-## License
+## 📄 License
 
-See the main repository for license information.
+MIT © [ugosan](https://github.com/ugosan)
