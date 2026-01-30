@@ -14,6 +14,14 @@
 
 ---
 
+<div align="center">
+
+<img src="./assets/crawly.gif" alt="Crawly Video" width="400">
+
+</div>
+
+
+
 ## Architecture
 
 The application consists of two microservices:
