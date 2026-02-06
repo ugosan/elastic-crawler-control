@@ -121,14 +121,18 @@ The `db.py` module provides an abstraction layer that can be refactored to use E
 
 ### Development
 
+This starts up Crawler Service and Frontend with Vite proxy so changes are reflected immediately:
+
 ```bash
-docker-compose up
+docker-compose up --build
 ```
 
 ### Production
 
+Production does the actual build of the frontend and uses nginx instead of a Vite proxy.
+
 ```bash
-docker-compose -f docker-compose.prod.yml up
+docker-compose -f docker-compose.prod.yml up --build
 ```
 
 Access the UI at: http://localhost:16700
