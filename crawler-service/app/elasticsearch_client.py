@@ -29,9 +29,9 @@ class ElasticsearchClient:
                                 "task_type": "sparse_embedding"
                             }
                         },
-                        "semantic_jinav3": {
+                        "semantic_multilingual": {
                             "type": "semantic_text",
-                            "inference_id": ".jina-embeddings-v3",
+                            "inference_id": ".jina-embeddings-v5-text-small",
                             "model_settings": {
                                 "service": "elastic",
                                 "task_type": "text_embedding",
@@ -57,9 +57,9 @@ class ElasticsearchClient:
                                 "task_type": "sparse_embedding"
                             }
                         },
-                        "semantic_jinav3": {
+                        "semantic_multilingual": {
                             "type": "semantic_text",
-                            "inference_id": ".jina-embeddings-v3",
+                            "inference_id": ".jina-embeddings-v5-text-small",
                             "model_settings": {
                                 "service": "elastic",
                                 "task_type": "text_embedding",
@@ -85,9 +85,9 @@ class ElasticsearchClient:
                                 "task_type": "sparse_embedding"
                             }
                         },
-                        "semantic_jinav3": {
+                        "semantic_multilingual": {
                             "type": "semantic_text",
-                            "inference_id": ".jina-embeddings-v3",
+                            "inference_id": ".jina-embeddings-v5-text-small",
                             "model_settings": {
                                 "service": "elastic",
                                 "task_type": "text_embedding",
